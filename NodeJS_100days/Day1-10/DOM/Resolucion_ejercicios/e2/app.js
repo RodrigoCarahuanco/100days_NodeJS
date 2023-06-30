@@ -7,4 +7,4 @@ myDiv.style.backgroundColor="red";
 // Ejercicio 5 Modificar atributos
 
 var img = document.getElementById('img');
-img.src = Luffy.webdp
+img.src = "Luffy.webdp"

@@ -1,29 +1,18 @@
 // Ejercicio 1 Cambiar el contenido de un elemento
+const texto = document.getElementById('1');
+texto.textContent = "Hola Juan";
 
-const titulo1 = document.getElementById('1')
-
-titulo1.textContent = "Rodrigo Carahuanco"
 
 // Ejercicio 2 Añadir y eliminar clases
-
-const div = document.getElementById('2')
-div.classList.add("myClass");
-
-setTimeout(function() {
-    div.classList.remove("myClass");
-  }, 5000);
+const ejercicio2 = document.getElementById('2');
+ejercicio2.className = "nuevoEjercicio2";
 
  // Ejercicio 3 Crear elementos dinámicamente
- const boton = document.getElementById('boton');
+ var nuevoElemento = document.createElement("div");
+ nuevoElemento.id = "ejercicio3";
+ nuevoElemento.textContent = "Contenido de ejercico 3";
+ nuevoElemento.style.color = "blue";
 
- boton.addEventListener("click",function(){
-    let parrafo = document.createElement("p");
+var contenedor = documento.createElement("div"); 
 
-    let parrafoText = document.createTextNode("Este es un parrafo nuevo");
-    parrafo.appendChild(parrafoText);
-
-    let parentElement = document.getElementById('idBoton');
-
-    parentElement.appendChild(parrafo);
- });
  
