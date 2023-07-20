@@ -1,6 +1,6 @@
 # Solicitudes HTTP
 
-- Cuando el servidor quiere envia una solicitud al cliente a eso se le llama solicitud HTTP
+- Son la solicitudo que envia el cliente al servidor esperando una respuesta HTTP.
 
 Contiene: 
 - Metodos HTTP
@@ -35,15 +35,15 @@ Clases:
 
 - Verbo para eliminar un recurso especifico
 
-### Camino (path)
+## Camino (path)
 
 - La direccion donde se envia la solicitud
 
-### Cabecera 
+## Cabecera 
 
 - Proveen info adicional sobre la solicitud de info
 
-### Cuerpo 
+## Cuerpo 
 
 - Contiene info que debe ser enviada al servidor para procesar la solicitud
 - No se incluye en todas las solicitudes solo en aquellas que requieras enviar info.

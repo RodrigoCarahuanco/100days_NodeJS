@@ -1,9 +1,12 @@
 const http = require('http');
-const servidor = http.createServer((request,response)=>{
-    // Proceso
-    response.end('Hola mundo')
+
+const servidor = http.createServer((req,res) => {
+    res.end("Hola desde el otro lado");
 });
 
-servidor.listen(3000,()=>{
-    console.log("El servidor esta escuchando...")
+const servidorWeb = 5000
+
+servidor.listen(servidorWeb,()=>{
+    console.log(`Escuchando de el servidor ${servidorWeb}`);
 });
+

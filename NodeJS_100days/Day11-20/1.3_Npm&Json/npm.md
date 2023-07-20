@@ -1,6 +1,5 @@
-# Npm 
 
-## Que es?
+# Que es?
 
 - Es el archivo de software mas grande del mundo que contiene paquetes que puedes instalar y usar en Node.js
 

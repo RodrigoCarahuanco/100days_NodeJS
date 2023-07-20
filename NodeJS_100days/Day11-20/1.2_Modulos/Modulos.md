@@ -12,8 +12,11 @@
 - Es mas facil modificar codigo
 - Es mas facil agregar nueva funcionalidad
 
-## Modulos built-in
+## Modulos built-in o principales
 
+- Son aquellos que puedes usar sin instalar en tu app
+
+Contiene:
 - http
 - https
 - fs (file system)
